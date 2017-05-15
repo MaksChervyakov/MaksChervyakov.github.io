@@ -1,0 +1,86 @@
+.green-theme button {
+	background-color: #1ebc58;
+	border-color: #1ebc58;
+	color: #fff
+	!important 
+}
+
+
+.green-theme header ul li:after {
+	background-color: #1ebc58;
+}
+.green-theme header ul .active-li {
+	color: #1ebc58;
+}
+.green-theme header .head-callback i {
+	color: #1ebc58;
+}
+.green-theme .head-title {
+	color: #1ebc58;
+}
+
+
+.green-theme .title-underline span {
+	background-color: #1ebc58;
+}
+.green-theme .map {
+	background-color: #1ebc58;
+}
+.green-theme .map i {
+	color: #60ff9a;
+}
+.green-theme .work-line {
+	background-color: #1ebc58;
+}
+.green-theme .footer-underline div {
+	background-color: #1ebc58;
+}
+.green-theme footer ul li:hover {
+	color: #1ebc58;
+}
+.green-theme .process-items .process-item-title {
+	color: #1ebc58;
+}
+.green-theme .process-item-line {
+	background-color: #1ebc58;
+}
+.green-theme .reviews .quote {
+	color: #1ebc58;
+}
+
+
+
+.green-theme .portfolio .col-md-7 ul .portfolio-li-active {
+	color: #1ebc58;
+}
+.green-theme .portfolio .col-md-7 ul .portfolio-li-active:after {
+	background-color: #1ebc58;
+}
+
+.green-theme .portfolio .slick-next,
+.green-theme .portfolio .slick-prev {
+	color: #000!important;
+}
+
+
+
+.green-theme .reviews .slick-prev:hover, .green-theme .reviews .slick-next:hover,
+.green-theme .reviews .slick-prev:active, .green-theme .reviews .slick-next:active,
+.green-theme .reviews .slick-prev:focus, .green-theme .reviews .slick-next:focus {
+	border-color: #1ebc58
+	!important;
+}
+.green-theme .slick-dots .slick-active {
+	background-color: #1ebc58
+	!important;
+	border-color: #1ebc58;
+}
+.green-theme .slick-prev:hover, .green-theme .slick-next:hover,
+.green-theme .slick-prev:active, .green-theme .slick-next:active,
+.green-theme .slick-prev:focus, .green-theme .slick-next:focus {
+	background-color: #1ebc58
+	!important;
+	border-color: #1ebc58;
+}
+
+
