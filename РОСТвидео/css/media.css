@@ -1,0 +1,45 @@
+@media (max-width: 1440px) {
+	.first-scren-camera {
+		width: 60%;
+	}
+}
+@media (max-width: 1024px) {
+	.first-scren-camera {
+		width: 70%;
+	}
+}
+
+@media (max-width: 768px) {
+	.solutions-item .col-md-12 .item-title {
+		margin-top: 400px;
+	}
+	.solutions-item {
+		margin-bottom: 30px;
+	}
+	.special-offer .item {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 425px) {
+	.solutions-item .col-md-12 .item-title {
+		margin-top: 200px;
+	}
+	.triangle {
+		width: 100%;
+	}
+	.main-title h1 {
+		font-size: 28px;
+	}
+	.header {
+		height: 200px;
+	}
+	.special-offer .incline-div p:first-child {
+		font-size: 26px;
+	}
+	.container-of-item ul li span img {
+		display: none;
+	}
+	.callback-phone {
+		font-size: 40px;
+	}
+}

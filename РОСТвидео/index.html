@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid header">
+      <div class="container">
+        <div class="col-md-6 col-sm-6 text-left col-xs-12">
+          <img src="img/logo.png" alt="Логотип" class="img-responsive">
+        </div>
+        <div class="col-md-6 col-sm-6 text-right col-xs-12">
+          <p class="header-phone"><i class="fa fa-phone" aria-hidden="true"></i> +7 (812) 247-06-51</p>
+          <p class="header-time">ПН-ПТ, с 9:00 до 19:00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid first-screen">
+    <img class="first-scren-camera" src="img/first-screen-camera.png" alt="Камера">
+      <div class="container">
+        <div class="col-md-12 col-sm-12 text-center main-title col-xs-12">
+          <h1 class="uppercase">системы видеонаблюдения</h1>
+          <p class="title-descr uppercase">под ключ с гарантией 5 лет</p>
+          <p class="title-descr">В Санкт-Петербурге и Ленинградской области</p>
+        </div>
+
+        <div class="col-md-5 col-sm-12 first-form col-xs-12">
+          <div class="form-content text-center">
+            <form>
+            <!-- Hidden Required Fields -->
+                 <input type="hidden" name="Клиент" value="Название отправителя">
+                 <input type="hidden" name="video@rostspb.ru" value="почта админа">
+                 <input type="hidden" name="C сайта РОСТвидео" value="тема письма">
+            <!-- END Hidden Required Fields -->
+            <p class="uppercase">Проконсультируем по любому вопросу видеонаблюдения-бесплатно!</p>
+            <input type="text" name="Номер-телефона" placeholder="+7 (916) 325-27-88">
+            <button class="uppercase hvr-pulse-shrink" type="submit">жду звонка</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container special-offer hidden-xs hidden-sm">
+      <div class="col-md-12 col-sm-12 text-center col-xs-12">
+        <div class="col-md-8 col-md-offset-2 col-sm-12 incline-div col-xs-12">
+          <p>СПЕЦпредложение!!!</p>
+          <p class="uppercase">Только до конца месяца!</p>
+        </div>
+      </div>
+
+      <div class="left-line col-md-8">
+        <div class="col-md-12 left">
+          <div class="col-md-5">
+            <div class="col-md-12 item col-xs-12">
+              <img src="img/special-offet-item1.png" alt="" class="img-responsive">
+              <p class="item-name">купольная видеокамера - <span>2 шт.</span></p>
+              <p class="item-descr">Цветная купольная (AHD/CVI/TVI/CVBS) видеокамера IPTRONIC IPT-QHD720DP(3,6) со встроенным фиксированным 2-х мегапиксельным объективом 3,6 мм и матрицей 1/4" OV9732 . </p>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="col-md-12 item col-xs-12">
+              <img src="img/special-offet-item2.png" alt="" class="img-responsive">
+              <p class="item-name">Уличная видеокамера - <span>2 шт.</span></p>
+              <p class="item-descr">Всепогодная уличная (AHD/CVI/TVI/CVBS) видеокамера со встроенным фиксированным 2-х мегапиксельным объективом 3,6 мм и матрицей 1/4" OV9732 . </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 left">
+            <div class="col-md-5">
+              <div class="col-md-12 item col-xs-12">
+                <img src="img/special-offet-item3.png" alt="" class="img-responsive">
+                <p class="item-name">видеорегистратор - <span>1 шт.</span></p>
+                <p class="item-descr">Мультиформатный видеорегистратор, поддерживает подключение до 4-х AHD/CVI/TVI видеокамер с разрешением до 2МП, запись производится в режиме реального времени со скоростью до 25 кадр/сек на каждый канал. </p>
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <div class="col-md-12 item col-xs-12">
+                <img src="img/special-offet-item4.png" alt="" class="img-responsive">
+                <p class="item-name">жесткий диск hdd 1тб - <span></span></p>
+                <p class="item-descr">Объем памяти 1000 Гб, SATA2/SATA3, Скорость чтения  155 МБ/с,<br>
+Скорость записи 154 МБ/с,<br>
+Буферная память 64 МБ,<br> 
+Уровень шума 22 дБ
+</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 item-plus right-items">
+        <div class="col-md-10 col-md-offset-1 item text-center col-xs-12">
+            <img src="img/special-offet-item5.png" alt="" class="img-responsive">
+            <p class="item-name uppercase">Монтаж, наладка<br> обучение эксплуатации</p>
+        </div>
+
+        <div class="col-md-10 col-md-offset-1 item text-center col-xs-12">
+            <img src="img/special-offet-item6.png" alt="" class="img-responsive">
+            <p class="item-name uppercase">5 лет гарантии на<br> оборудование и работы</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container special-offer hidden-md hidden-lg">
+      <div class="col-md-12 col-sm-12 text-center col-xs-12">
+        <div class="col-md-8 col-md-offset-2 col-sm-12 incline-div col-xs-12">
+          <p>СПЕЦпредложение!!!</p>
+          <p class="uppercase">Только до конца месяца!</p>
+        </div>
+      </div>
+  
+      
+      <div class="col-md-12 col-sm-12 line-of-item col-xs-12">
+        <div class="col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+          <div class="col-md-12 item col-xs-12">
+            <img src="img/special-offet-item1.png" alt="" class="img-responsive">
+            <p class="item-name">купольная видеокамера - <span>2 шт.</span></p>
+            <p class="item-descr">Цветная купольная (AHD/CVI/TVI/CVBS) видеокамера IPTRONIC IPT-QHD720DP(3,6) со встроенным фиксированным 2-х мегапиксельным объективом 3,6 мм и матрицей 1/4" OV9732 . </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="col-md-12 item col-xs-12">
+              <img src="img/special-offet-item2.png" alt="" class="img-responsive">
+              <p class="item-name">Уличная видеокамера - <span>2 шт.</span></p>
+              <p class="item-descr">Всепогодная уличная (AHD/CVI/TVI/CVBS) видеокамера со встроенным фиксированным 2-х мегапиксельным объективом 3,6 мм и матрицей 1/4" OV9732 . </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 line-of-item col-sm-12 col-xs-12">
+        <div class="col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+          <div class="col-md-12 item col-xs-12">
+                <img src="img/special-offet-item3.png" alt="" class="img-responsive">
+                <p class="item-name">видеорегистратор - <span>1 шт.</span></p>
+                <p class="item-descr">Мультиформатный видеорегистратор, поддерживает подключение до 4-х AHD/CVI/TVI видеокамер с разрешением до 2МП, запись производится в режиме реального времени со скоростью до 25 кадр/сек на каждый канал. </p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="col-md-12 item col-xs-12">
+                <img src="img/special-offet-item4.png" alt="" class="img-responsive">
+                <p class="item-name">жесткий диск hdd 1тб - <span></span></p>
+                <p class="item-descr">Объем памяти 1000 Гб, SATA2/SATA3, Скорость чтения  155 МБ/с,<br>
+Скорость записи 154 МБ/с,<br>
+Буферная память 64 МБ,<br> 
+Уровень шума 22 дБ
+</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 line-sum text-center col-sm-12 col-xs-12">
+        <img src="img/sum-line.png" alt="" class="img-responsive" style="margin: 0px auto;">
+      </div>
+    
+      <div class="col-md-12 line-of-gift col-sm-12 col-xs-12">
+        <div class="col-md-4 col-md-offset-2 item-plus col-sm-12 col-xs-12">
+          <div class="col-md-12 item text-center col-xs-12">
+            <img src="img/special-offet-item5.png" alt="" class="img-responsive">
+            <p class="item-name uppercase">Монтаж, наладка<br> обучение эксплуатации</p>
+          </div>
+        </div>
+        <div class="col-md-4 item-plus col-sm-12 col-xs-12">
+          <div class="col-md-12 item text-center col-xs-12">
+            <img src="img/special-offet-item6.png" alt="" class="img-responsive">
+            <p class="item-name uppercase">5 лет гарантии на<br> оборудование и работы</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 line-of-price text-center col-sm-12 col-xs-12">
+        <p>Цена СПЕЦпредложения 23900р.</p>
+        <button class="hvr-pulse-shrink" data-toggle="modal" data-target="#myModal">Вас заинтересовало? ЖМИТЕ!</button>
+      </div>
+
+    </div>
+
+
+
+    <div class="container-fluid special-solutions">
+      <div class="container" id="type-of-solutions">
+        <div class="col-md-12 text-center special-caption col-sm-12 col-xs-12">
+          <h1 class="uppercase">Готовые решения для различных объектов.</h1>
+          <div class="special-line"></div>
+          <p class="text-left">Данные комплекты, по желанию заказчика можно изменять так как это будет необходимо для Вашего объекта. Мы предложим то что будет наиболее отвечать стандартам безопасности, но решение будете принимать только Вы!</p>
+        </div>
+        <!--Линия-->
+        <div class="col-md-12 padding-zero line-of-items col-sm-12 col-xs-12">
+          <div class="col-md-4 solutions-item col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <img src="img/special-solutions-1.png" alt="" class="item-top-img img-not-blurred">
+              <img src="img/special-solutions-camera1.png" alt="" class="camera camera1">
+              <p class="item-title">Для офиса, магазина</p>
+              <ul class="padding-zero">
+                <li>Конфигурация:</li>
+                <li>Видеорегистратор(AHD) IPTRONIC – 1 шт.</li>
+                <li>Жесткий диск(1 Tb) HDD 1ТБ – 1 шт.</li>
+                <li>Камеры уличные(AHD) IPTRONIC IPT – 1 шт.</li>
+                <li>Камеры внутренние IPTRONIC IPT – 3 шт.</li>
+                <li>Кабель для видеонаблюдения – 100 метров</li>
+                <li>Блок питания с АКБ PV-DC – 1 компл.</li>
+                <li>Монтаж и пусконаладочные работы</li>
+              </ul>
+              <p class="item-cost">Стоимоть: от <span>37 600 р.</span></p>
+              <p id="for-office">Подробнее</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 solutions-item col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <img src="img/special-solutions-2.png" alt="" class="item-top-img img-not-blurred">
+              <img src="img/special-solutions-camera2.png" alt="" class="camera camera2">
+              <p class="item-title">Для малого бизнеса</p>
+              <ul class="padding-zero">
+                <li>Конфигурация:</li>
+                <li>Видеорегистратор(AHD) Hikvision HiWatch – 1 шт.</li>
+                <li>Жесткий диск(1 Tb) HDD 1ТБ – 1 шт.</li>
+                <li>Камеры уличные(AHD) IPTRONIC IPT– 3 шт</li>
+                <li>Камеры внутренние(AHD IPTRONIC IPT– 5 шт.</li>
+                <li>Кабель для видеонаблюдения– 150 метров</li>
+                <li>Блок питания с АКБ PV-DC – 1 компл.</li>
+                <li>Монтаж и пусконаладочные работы</li>
+              </ul>
+              <p class="item-cost">Стоимоть: от <span>62 696 р.</span></p>
+              <p id="for-small-business">Подробнее</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 solutions-item col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <img src="img/special-solutions-3.png" alt="" class="item-top-img img-not-blurred">
+              <img src="img/special-solutions-camera3.png" alt="" class="camera camera3">
+              <p class="item-title">Для стоянки, парковки</p>
+              <ul class="padding-zero">
+                <li>Конфигурация:</li>
+                <li>Видеорегистратор(AHD) Hikvision HiWatch – 1 шт.</li>
+                <li>Жесткий диск(1 Tb) HDD 1ТБ – 1 шт.</li>
+                <li>Монитор ЖК 17” Монитор Acer – 1 шт.</li>
+                <li>Камеры уличные(AHD) IPTRONIC IPT – 4 шт.</li>
+                <li>Кабель для видеонаблюдения – 200 метров</li>
+                <li>Блок питания с АКБ PV-DC – 1 компл.</li>
+                <li>Монтаж и пусконаладочные работы</li>
+              </ul>
+              <p class="item-cost">Стоимоть: от <span>65 100 р.</span></p>
+              <p id="for-parking">Подробнее</p>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!--Вторая линия-->
+        <div class="col-md-12 padding-zero line-of-items col-sm-12 col-xs-12">
+
+          <div class="col-md-4 solutions-item col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <img src="img/special-solutions-4.png" alt="" class="item-top-img img-not-blurred">
+              <img src="img/special-solutions-camera4.png" alt="" class="camera camera4">
+              <p class="item-title">Для загородного дома</p>
+              <ul class="padding-zero">
+                <li>Конфигурация:</li>
+                <li>Видеорегистратор (AHD) Hikvision HiWatch – 1 шт.</li>
+                <li>Жесткий диск(1 Tb) HDD 1ТБ – 1 шт.</li>
+                <li>Камеры уличные(AHD) IPTRONIC IPT – 4 шт</li>
+                <li>Камеры внутренние IPTRONIC IPT – 2 шт.</li>
+                <li>Кабель для видеонаблюдения – 150 метров</li>
+                <li>Блок питания с АКБ PV-DC – 1 компл.</li>
+                <li>Монтаж и пусконаладочные работы</li>
+              </ul>
+              <p class="item-cost">Стоимоть: от <span>57 930 р.</span></p>
+              <p id="for-house">Подробнее</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 solutions-item col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <img src="img/special-solutions-5.png" alt="" class="item-top-img img-not-blurred">
+              <img src="img/special-solutions-camera5.png" alt="" class="camera camera5">
+              <p class="item-title">Для склада, производства</p>
+              <ul class="padding-zero">
+                <li>Конфигурация:</li>
+                <li>Видеорегистратор(AHD) – Hikvision HiWatch – 1 шт.</li>
+                <li>Жесткий диск(1 Tb) – 1 шт. HDD 1ТБ – 1 шт.</li>
+                <li>Камеры уличные(AHD) IPTRONIC IP – 2 шт.</li>
+                <li>Камеры внутренние IPTRONIC IPT – 6 шт.</li>
+                <li>Кабель для видеонаблюдения – 200 метров</li>
+                <li>Блок питания с АКБ PV-DC - 1 компл.</li>
+                <li>Шкаф с замком</li>
+                <li>Монтаж и пусконаладочные работы</li>
+              </ul>
+              <p class="item-cost">Стоимоть: от <span>68 598 р.</span></p>
+              <p id="for-stock">Подробнее</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 solutions-item col-sm-12 col-xs-12">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <img src="img/special-solutions-6.png" alt="" class="item-top-img img-not-blurred">
+              <img src="img/special-solutions-camera6.png" alt="" class="camera camera6">
+              <p class="item-title">Для стройки</p>
+              <ul class="padding-zero">
+                <li>Конфигурация:</li>
+                <li>Видеорегистратор(AHD) Hikvision HiWatch – 1 шт.</li>
+                <li>Жесткий диск(1 Tb) HDD 1ТБ – 1 шт.</li>
+                <li>Монитор ЖК 17” Монитор Acer – 1 шт.</li>
+                <li>Камеры уличные(AHD) IPTRONIC IPT – 8 шт.</li>
+                <li>Кабель для видеонаблюдения – 200 метров</li>
+                <li>Блок питания с АКБ PV-DC – 1 компл.</li>
+                <li>Монтаж и пусконаладочные работы </li>
+              </ul>
+              <p class="item-cost">Стоимоть: от <span>75 166 р.</span></p>
+              <p id="for-construction">Подробнее</p>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+
+      <div class="container container-of-item" id="office">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <img src="img/office/office-bg.png" alt="" class="container-of-item-img img-responsive">
+          <p class="text-center container-of-item-title">Видеонаблюдение для офиса</p>
+          <div class="col-md-7 padding-zero col-sm-12 col-xs-12">
+            <ul class="padding-zero">
+              <li>Комплексное предложение:</li>
+              <li>Видеорегистратор(AHD) IPTRONIC <span><img src="img/office/item1.png" alt=""> 1шт.</span></li>
+              <li>Жесткий диск(1 Tb) HDD 1ТБ <span><img src="img/office/item2.png" alt=""> 1шт.</span></li>
+              <li>Камеры уличные(AHD) IPTRONIC IPT  <span><img src="img/office/item3.png" alt=""> 1шт.</span></li>
+              <li>Камеры внутренние IPTRONIC IPT <span><img src="img/office/item4.png" alt=""> 3шт.</span></li>
+              <li>Кабель для видеонаблюдения <span><img src="img/office/item5.png" alt=""> 100м.</span></li>
+              <li>Блок питания с АКБ PV-DC <span><img src="img/office/item6.png" alt=""> 1шт.</span></li>
+              <li>Монтаж и пусконаладочные работы <span><img src="img/office/item7.png" alt=""> 111</span></li>
+            </ul>
+            <p class="cost">Стоимость: от 37 600</p>
+          </div>
+
+          <div class="col-md-5 container-of-item-form col-sm-12 col-xs-12">
+            <div class="form-content text-center">
+            <form>
+                <!-- Hidden Required Fields -->
+                 <input type="hidden" name="Клиент" value="Название отправителя">
+                 <input type="hidden" name="video@rostspb.ru" value="почта админа">
+                 <input type="hidden" name="C сайта РОСТвидео" value="тема письма">
+                <!-- END Hidden Required Fields -->
+              <p class="uppercase">Любой объект имеет особенности. И если что-то надо будет изменить. Мы это сделаем специально для вас!</p>
+              <input type="text" placeholder="+7 (916) 325-27-88">
+              <button class="uppercase hvr-pulse-shrink">Хочу обсудить детали</button>
+            </form>
+            </div>
+        </div>  
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          <button class="back hvr-pulse">Назад</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="container container-of-item" id="small-business">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <img src="img/small-business/small-business-bg.png" alt="" class="container-of-item-img img-responsive">
+          <p class="text-center container-of-item-title">Видеонаблюдение для офиса</p>
+          <div class="col-md-7 padding-zero col-sm-12 col-xs-12">
+            <ul class="padding-zero">
+              <li>Комплексное предложение:</li>
+              <li>Видеорегистратор(AHD) IPTRONIC <span><img src="img/small-business/item1.png" alt=""> 1шт.</span></li>
+              <li>Жесткий диск(1 Tb) HDD 1ТБ <span><img src="img/small-business/item2.png" alt=""> 1шт.</span></li>
+              <li>Камеры уличные(AHD) IPTRONIC IPT  <span><img src="img/small-business/item3.png" alt=""> 1шт.</span></li>
+              <li>Камеры внутренние IPTRONIC IPT <span><img src="img/small-business/item4.png" alt=""> 3шт.</span></li>
+              <li>Кабель для видеонаблюдения <span><img src="img/small-business/item5.png" alt=""> 100м.</span></li>
+              <li>Блок питания с АКБ PV-DC <span><img src="img/small-business/item6.png" alt=""> 1шт.</span></li>
+              <li>Монтаж и пусконаладочные работы <span><img src="img/office/item7.png" alt=""> 111</span></li>
+            </ul>
+            <p class="cost">Стоимость: от 62 696</p>
+          </div>
+
+          <div class="col-md-5 container-of-item-form col-sm-12 col-xs-12">
+            <div class="form-content text-center">
+            <form>
+                <!-- Hidden Required Fields -->
+                 <input type="hidden" name="Клиент" value="Название отправителя">
+                 <input type="hidden" name="video@rostspb.ru" value="почта админа">
+                 <input type="hidden" name="C сайта РОСТвидео" value="тема письма">
+                <!-- END Hidden Required Fields -->
+              <p class="uppercase">Любой объект имеет особенности. И если что-то надо будет изменить. Мы это сделаем специально для вас!</p>
+              <input type="text" placeholder="+7 (916) 325-27-88">
+              <button class="uppercase hvr-pulse-shrink">Хочу обсудить детали</button>
+            </form>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          <button class="back hvr-pulse">Назад</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="container container-of-item" id="parking">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <img src="img/parking/parking-bg.png" alt="" class="container-of-item-img img-responsive">
+          <p class="text-center container-of-item-title">Видеонаблюдение для стоянки или парковки</p>
+          <div class="col-md-7 padding-zero col-sm-12 col-xs-12">
+            <ul class="padding-zero">
+              <li>Комплексное предложение:</li>
+              <li>Видеорегистратор(AHD) IPTRONIC <span><img src="img/parking/item1.png" alt=""> 1шт.</span></li>
+              <li>Жесткий диск(1 Tb) HDD 1ТБ <span><img src="img/parking/item2.png" alt=""> 1шт.</span></li>
+              <li>Камеры уличные(AHD) IPTRONIC IPT  <span><img src="img/parking/item3.png" alt=""> 1шт.</span></li>
+              <li>Камеры внутренние IPTRONIC IPT <span><img src="img/parking/item4.png" alt=""> 3шт.</span></li>
+              <li>Кабель для видеонаблюдения <span><img src="img/parking/item5.png" alt=""> 100м.</span></li>
+              <li>Блок питания с АКБ PV-DC <span><img src="img/parking/item6.png" alt=""> 1шт.</span></li>
+              <li>Монтаж и пусконаладочные работы <span><img src="img/office/item7.png" alt=""> 111</span></li>
+            </ul>
+            <p class="cost">Стоимость: от 75 166</p>
+          </div>
+
+          <div class="col-md-5 container-of-item-form col-sm-12 col-xs-12">
+            <div class="form-content text-center">
+            <form>
+                <!-- Hidden Required Fields -->
+                 <input type="hidden" name="Клиент" value="Название отправителя">
+                 <input type="hidden" name="video@rostspb.ru" value="почта админа">
+                 <input type="hidden" name="C сайта РОСТвидео" value="тема письма">
+                <!-- END Hidden Required Fields -->
+              <p class="uppercase">Любой объект имеет особенности. И если что-то надо будет изменить. Мы это сделаем специально для вас!</p>
+              <input type="text" placeholder="+7 (916) 325-27-88">
+              <button class="uppercase hvr-pulse-shrink">Хочу обсудить детали</button>
+            </form>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          <button class="back hvr-pulse">Назад</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="container container-of-item" id="house">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <img src="img/house/house-bg.png" alt="" class="container-of-item-img img-responsive">
+          <p class="text-center container-of-item-title">Видеонаблюдение в загородный дом</p>
+          <div class="col-md-7 padding-zero col-sm-12 col-xs-12">
+            <ul class="padding-zero">
+              <li>Комплексное предложение:</li>
+              <li>Видеорегистратор(AHD) IPTRONIC <span><img src="img/house/item1.png" alt=""> 1шт.</span></li>
+              <li>Жесткий диск(1 Tb) HDD 1ТБ <span><img src="img/house/item2.png" alt=""> 1шт.</span></li>
+              <li>Камеры уличные(AHD) IPTRONIC IPT  <span><img src="img/house/item3.png" alt=""> 1шт.</span></li>
+              <li>Камеры внутренние IPTRONIC IPT <span><img src="img/house/item4.png" alt=""> 3шт.</span></li>
+              <li>Кабель для видеонаблюдения <span><img src="img/house/item5.png" alt=""> 100м.</span></li>
+              <li>Блок питания с АКБ PV-DC <span><img src="img/house/item6.png" alt=""> 1шт.</span></li>
+              <li>Монтаж и пусконаладочные работы <span><img src="img/office/item7.png" alt=""> 111</span></li>
+            </ul>
+            <p class="cost">Стоимость: от 57 930</p>
+          </div>
+
+          <div class="col-md-5 container-of-item-form col-sm-12 col-xs-12">
+            <div class="form-content text-center">
+            <form>
+                <!-- Hidden Required Fields -->
+                 <input type="hidden" name="Клиент" value="Название отправителя">
+                 <input type="hidden" name="video@rostspb.ru" value="почта админа">
+                 <input type="hidden" name="C сайта РОСТвидео" value="тема письма">
+                <!-- END Hidden Required Fields -->
+              <p class="uppercase">Любой объект имеет особенности. И если что-то надо будет изменить. Мы это сделаем специально для вас!</p>
+              <input type="text" placeholder="+7 (916) 325-27-88">
+              <button class="uppercase hvr-pulse-shrink">Хочу обсудить детали</button>
+            </form>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          <button class="back hvr-pulse">Назад</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="container container-of-item" id="stock">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <img src="img/stock/stock-bg.png" alt="" class="container-of-item-img img-responsive">
+          <p class="text-center container-of-item-title">Видеонаблюдение в загородный дом</p>
+          <div class="col-md-7 padding-zero col-sm-12 col-xs-12">
+            <ul class="padding-zero">
+              <li>Комплексное предложение:</li>
+              <li>Видеорегистратор(AHD) IPTRONIC <span><img src="img/stock/item1.png" alt=""> 1шт.</span></li>
+              <li>Жесткий диск(1 Tb) HDD 1ТБ <span><img src="img/stock/item2.png" alt=""> 1шт.</span></li>
+              <li>Камеры уличные(AHD) IPTRONIC IPT  <span><img src="img/stock/item3.png" alt=""> 1шт.</span></li>
+              <li>Камеры внутренние IPTRONIC IPT <span><img src="img/stock/item4.png" alt=""> 3шт.</span></li>
+              <li>Кабель для видеонаблюдения <span><img src="img/stock/item5.png" alt=""> 100м.</span></li>
+              <li>Блок питания с АКБ PV-DC <span><img src="img/stock/item6.png" alt=""> 1шт.</span></li>
+              <li>Шкаф с замком <span><img src="img/stock/item7.png" alt=""> 1шт.</span></li>
+              <li>Монтаж и пусконаладочные работы <span><img src="img/office/item7.png" alt=""> 111</span></li>
+            </ul>
+            <p class="cost">Стоимость: от 68 598 р.</p>
+          </div>
+
+          <div class="col-md-5 container-of-item-form col-sm-12 col-xs-12">
+            <div class="form-content text-center">
+            <form>
+                <!-- Hidden Required Fields -->
+                 <input type="hidden" name="Клиент" value="Название отправителя">
+                 <input type="hidden" name="video@rostspb.ru" value="почта админа">
+                 <input type="hidden" name="C сайта РОСТвидео" value="тема письма">
+                <!-- END Hidden Required Fields -->
+              <p class="uppercase">Любой объект имеет особенности. И если что-то надо будет изменить. Мы это сделаем специально для вас!</p>
+              <input type="text" placeholder="+7 (916) 325-27-88">
+              <button class="uppercase hvr-pulse-shrink">Хочу обсудить детали</button>
+            </form>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          <button class="back hvr-pulse">Назад</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="container container-of-item" id="construction">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <img src="img/construction/construction-bg.png" alt="" class="container-of-item-img img-responsive">
+          <p class="text-center container-of-item-title">Видеонаблюдение для стройки</p>
+          <div class="col-md-7 padding-zero col-sm-12 col-xs-12">
+            <ul class="padding-zero">
+              <li>Комплексное предложение:</li>
+              <li>Видеорегистратор(AHD) IPTRONIC <span><img src="img/construction/item1.png" alt=""> 1шт.</span></li>
+              <li>Жесткий диск(1 Tb) HDD 1ТБ <span><img src="img/construction/item2.png" alt=""> 1шт.</span></li>
+              <li>Камеры уличные(AHD) IPTRONIC IPT  <span><img src="img/construction/item3.png" alt=""> 1шт.</span></li>
+              <li>Камеры внутренние IPTRONIC IPT <span><img src="img/construction/item4.png" alt=""> 3шт.</span></li>
+              <li>Кабель для видеонаблюдения <span><img src="img/construction/item5.png" alt=""> 100м.</span></li>
+              <li>Блок питания с АКБ PV-DC <span><img src="img/construction/item6.png" alt=""> 1шт.</span></li>
+              <li>Монтаж и пусконаладочные работы <span><img src="img/office/item7.png" alt=""> 111</span></li>
+            </ul>
+            <p class="cost">Стоимость: от 75 166</p>
+          </div>
+
+          <div class="col-md-5 container-of-item-form col-sm-12 col-xs-12">
+            <div class="form-content text-center">
+            <form>
+                <!-- Hidden Required Fields -->
+                 <input type="hidden" name="Клиент" value="Название отправителя">
+                 <input type="hidden" name="video@rostspb.ru" value="почта админа">
+                 <input type="hidden" name="C сайта РОСТвидео" value="тема письма">
+                <!-- END Hidden Required Fields -->
+              <p class="uppercase">Любой объект имеет особенности. И если что-то надо будет изменить. Мы это сделаем специально для вас!</p>
+              <input type="text" placeholder="+7 (916) 325-27-88">
+              <button class="uppercase hvr-pulse-shrink">Хочу обсудить детали</button>
+            </form>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          <button class="back hvr-pulse">Назад</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid slider">
+      <div class="container">
+      <img src="img/triangle.png" alt="" class="triangle">
+        <div class="col-md-4 col-md-offset-4 text-center col-sm-12 col-xs-12">
+          <div class="slider-title">
+            <p>Наши работы</p>
+          </div>
+        </div>
+        <div class="col-md-12 my-flipster col-sm-12 col-xs-12" id="carousel">
+          <ul>
+            <li><img src="img/slider-item5.png" alt=""></li>
+            <li><img src="img/slider-item4.png" alt=""></li>
+            <li><img src="img/slider-item1.png" alt=""></li>
+            <li><img src="img/slider-item2.png" alt=""></li>
+            <li><img src="img/slider-item3.png" alt=""></li>
+          </ul>
+        </div>
+        <div class="white-line col-md-4 col-md-offset-4"></div>
+        <div class="col-md-offset-3 col-md-6 text-center slider-descr col-sm-12 col-xs-12">
+          <p>Компания РОСТвидео 12 лет на рынке видеонаблюдения.</p>
+          <p>Мы гордимся всеми нашими работами и делаем на совесть!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid callback">
+      <div class="container">
+        <div class="col-md-12 text-center col-sm-12 col-xs-12">
+          <p class="callback-title uppercase">Позвоните! И мы проконсультируем вас!</p>
+          <p class="callback-phone">+7(812) 247-06-51</p>
+          <button class="uppercase hvr-pulse-shrink" data-toggle="modal" data-target="#myModal">Заказать обратный звонок</button>
+          <p class="callback-time">Мы перезвоним Вам в течении 10 минут.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container team text-center">
+      <div class="col-md-12 ">
+        <p class="team-title uppercase">Наша команда</p>
+        <div class="team-line"></div>
+        <p class="team-descr">В команде РОСТвидео работают настоящие профессионалы<br> - это люди которые любят свое дело. Знакомтесь!</p>
+      </div>
+
+      <div class="col-md-3 worker">
+        <div class="col-md-12 padding-zero">
+          <img src="img/worker1.png" alt="" class="img-responsive">
+          <p class="worker-name">Ковалев Андрей Андреевич</p>
+          <p class="worker-position">Генеральный директор</p>
+        </div>
+      </div>
+      <div class="col-md-3 worker">
+        <div class="col-md-12 padding-zero">
+          <img src="img/worker2.png" alt="" class="img-responsive">
+          <p class="worker-name">Цветков Федор Викторович</p>
+          <p class="worker-position">Исполнительный директор</p>
+        </div>
+      </div>
+      <div class="col-md-3 worker">
+        <div class="col-md-12 padding-zero">
+          <img src="img/worker3.png" alt="" class="img-responsive">
+          <p class="worker-name">Антонов Михаил Олегович</p>
+          <p class="worker-position">Главный инженер</p>
+        </div>
+      </div>
+      <div class="col-md-3 worker">
+        <div class="col-md-12 padding-zero">
+          <img src="img/worker4.png" alt="" class="img-responsive">
+          <p class="worker-name">Швайко Светлана Юрьевна</p>
+          <p class="worker-position">Офис-менеджер, бухгалтер</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid map padding-zero">
+    <img src="img/triangle.png" alt="" class="triangle">
+      <div class="container">
+        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+          <p class="uppercase map-title text-center"><span>Как нас найти?</span></p>
+        </div>
+        <div class="col-md-4 col-md-offset-4 text-center map-adress col-sm-12 col-xs-12">
+          <div class="col-md-12 col-sm-12">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <p>Наш адрес: Санкт-Петербург,<br> Лабараторный проспект, дом 23А</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 phones text-center col-sm-12 col-xs-12">
+        <p><i class="fa fa-phone" aria-hidden="true"></i> +7 (812) 247-06-51,<span></span> +7 (911) 981-93-12</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> video@rostspb.ru</p>
+      </div>
+    </div>
+
+    <div class="container copyr text-center">
+      <p>Все права защищены<br>Copiryght 2017</p>
+    </div>
+
+
+    <!---->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="form-content text-center">
+              <form>
+              <!-- Hidden Required Fields -->
+                   <input type="hidden" name="Клиент" value="Название отправителя">
+                 <input type="hidden" name="video@rostspb.ru" value="почта админа">
+                 <input type="hidden" name="C сайта РОСТвидео" value="тема письма">
+              <!-- END Hidden Required Fields -->
+              <p class="uppercase">Оставьте ваш номер телефона <br> и мы позвоним, в течении <br> 10 минут!</p>
+              <input type="text" name="Номер-телефона" placeholder="+7 (916) 325-27-88">
+              <button class="uppercase hvr-pulse-shrink" type="submit">жду звонка</button>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flipster.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/sweetalert-dev.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script>
+      $("input").mask("+7 (999) 999-9999");
+
+       
+
+       $("#carousel").flipster({
+          style: 'carousel',
+          spacing: -0.5,
+          nav: true,
+          buttons: false,
+      });
+
+       //E-mail Ajax Send
+        $("form").submit(function() { //Change
+          swal({   title: "Ошибка!",   text: "Что-то пошло не так!",   type: "error",   confirmButtonText: "Закрыть" });
+          var th = $(this);
+          $.ajax({
+            type: "POST",
+            url: "mail.php", //Change
+            data: th.serialize()
+          }).done(function() {
+            sweetAlert("Спасибо!", "Ваша заявка успешно отправлена", "success");
+            setTimeout(function() {
+              // Done Functions
+              th.trigger("reset");
+            }, 1000);
+          });
+          return false;
+        });
+
+        $('.img-not-blurred').css({'filter' : 'blur(3px)'});
+        $('.img-not-blurred').mouseover(function(){
+          $(this).css({'filter' : 'blur(0)'});
+          $(this).next().css({'filter' : 'blur(3px)'});
+        });//окончание hover
+        $('.img-not-blurred').mouseout(function(){
+          $(this).css({'filter' : 'blur(3px)'});
+          $(this).next().css({'filter' : 'blur(0)'});
+        });//окончание hover
+
+
+        
+      $('.back').click(function() {
+        $('#office').slideUp();
+        $('#small-business').slideUp();
+        $('#parking').slideUp();
+        $('#house').slideUp();
+        $('#stock').slideUp();
+        $('#construction').slideUp();
+        $('#type-of-solutions').slideDown();
+      });
+
+
+      $('#office').slideUp();
+      $('#for-office').click(function() {
+        $('#type-of-solutions').slideUp();
+        $('#office').slideDown();
+      });//окончание click
+
+      $('#small-business').slideUp();
+      $('#for-small-business').click(function() {
+        $('#type-of-solutions').slideUp();
+        $('#small-business').slideDown();
+      });//окончание click
+
+      $('#parking').slideUp();
+      $('#for-parking').click(function() {
+        $('#type-of-solutions').slideUp();
+        $('#parking').slideDown();
+      });//окончание click
+
+      $('#house').slideUp();
+      $('#for-house').click(function() {
+        $('#type-of-solutions').slideUp();
+        $('#house').slideDown();
+      });//окончание click
+
+      $('#stock').slideUp();
+      $('#for-stock').click(function() {
+        $('#type-of-solutions').slideUp();
+        $('#stock').slideDown();
+      });//окончание click
+
+      $('#construction').slideUp();
+      $('#for-construction').click(function() {
+        $('#type-of-solutions').slideUp();
+        $('#construction').slideDown();
+      });//окончание click
+
+
+
+    </script>
+  </body>
+</html>
