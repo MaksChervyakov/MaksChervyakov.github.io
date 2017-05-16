@@ -29,6 +29,9 @@ input
 	border: none;
 	outline: none;
 }
+body {
+	background-color: #f7f7f7;
+}
 
 /*purple-button*/
 .purple-button
@@ -1215,3 +1218,74 @@ input
 	border-color: red;
 }
 /*Конец диапазона цен*/
+
+
+
+
+/*Страница статья*/
+.articles ul {
+	padding: 0;
+	list-style: none;
+}
+.articles ul li {
+	font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: #2f2c32;
+}
+.articles ul li:hover {
+	text-decoration: underline;
+}
+.active-article-li {
+	font-size: 16px
+	!important;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-decoration: none
+	!important;
+}
+.div-for-article-image {
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/article.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.text-of-article p {
+	line-height: 24px;
+}
+.delivery-page .title {
+	margin-bottom: 15px;
+}
+.delivery-border {
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+.delivery-item {
+	margin-bottom: 0px;
+}
+.delivery-name {
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 20px;
+}
+.delivery-descr {
+	max-width: 700px;
+	border: 1px solid #eeeeee;
+	padding: 10px;
+	border-radius: 3px;
+}
+.delivery-finish {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.delivery-finish .proc-text {
+	float: none;
+	margin-right: 10px;
+}
+.delivery-finish button {
+	padding: 11px 35px 11px 35px;
+}
