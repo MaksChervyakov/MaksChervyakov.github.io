@@ -1302,3 +1302,244 @@ body {
 .delivery-finish button {
 	padding: 11px 35px 11px 35px;
 }
+
+.personal-area-border {
+	background-color: #fff;
+	border-radius: 4px;
+	border: 1px solid #eeeeee;
+	padding: 5px 20px 5px 20px;
+	position: relative;
+}
+.personal-area-border button:last-child {
+	margin-bottom: 25px;
+}
+/*.personal-area-line {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	background-color: #eee;
+	width: 100%;
+	margin-bottom: 10px;
+}*/
+.personal-area-border h4 {
+	font-size: 24px;
+}
+.edit {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 4px;
+}
+.title-of-personal-area {
+	padding: 0;
+	list-style: none;
+}
+.title-of-personal-area .profile {
+	font-size: 20px;
+	margin-top: 5px;
+}
+.title-of-personal-area li span {
+	display: inline-block;
+	min-width: 16px;
+}
+.title-of-personal-area li {
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+.title-of-personal-area li:last-child {
+	border-bottom: none;
+}
+.client-name {
+	font-weight: bold;
+}
+.area-text {
+	padding-bottom: 5px;
+	font-size: 20px;
+	margin-bottom: 0;
+}	
+
+.area-text + button {
+	font-size: 16px;
+	widows: 100%;
+	margin-bottom: 20px;
+}
+.area-text-descr {
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid purple;
+}
+.area-text-descr i {
+	color: #78597d;
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.personal-area-items {
+	background-color: #fff;
+	border-radius: 4px;
+	border: 1px solid #eeeeee;
+	padding-top: 20px;
+}
+.personal-area-items textarea {
+	resize: none;
+}
+.personal-area-items .active-button {
+	background-color: #614665;
+}
+.personal-area-items button {
+	height: 30px;
+	padding-left: 20px;
+}
+.personal-area-items button span {
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 50%;
+	line-height: 15px;
+	text-align: center;
+	width: 15px;
+	height: 15px;
+	font-size: 10px;
+	color: #ffffff;
+}
+.area-buttons {
+	margin-bottom: 30px;
+}
+.empty-area {
+	text-align: center;
+}
+.empty-area i {
+	margin-top: 35px;
+	font-size: 100px;
+	color: silver;
+}
+.empty-area p {
+	font-size: 30px;
+}
+.empty-area a {
+	display: block;
+	font-size: 28px;
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+
+.personal-table {
+	width: 100%;
+	text-align: left;
+	
+}
+.table {
+	border-radius: 10px
+	!important;
+	border: 1px solid #eeeeee;
+}
+.personal-table tr:first-child td {
+	padding-left: 20px;
+}
+.personal-table td {
+	padding-left: 25px;
+	vertical-align: middle;
+}
+.personal-table tr {
+	height: 50px;
+}
+.personal-table tr:first-child {
+	-webkit-box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
+-moz-box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
+box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
+}
+.personal-table tr:nth-child(2n) {
+	border-bottom: 1px solid #eee;
+}
+.personal-table tr td a {
+	font-size: 100%;
+	text-decoration: none;
+	color: #347cef;
+	display: inline;
+}
+.personal-table tr td i {
+	font-size: 100%;
+	display: inline;
+}
+.personal-table .success,
+.personal-table .success i {
+	color: green;
+}
+.personal-table .fail,
+.personal-table .fail i {
+	color: red;
+}
+
+.personal-table tr td:last-child i {
+	color: #000;
+}
+.area-buttons {
+	position: relative;
+}
+.area-buttons h4 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+}
+.add-information {
+	min-height: 50px;
+	width: 100%;
+}
+
+/*Для звезд*/
+.rating {
+    float:left;
+}
+
+/* Конструкция :not(:checked) работает как фильтр, чтобы браузеры, которые не поддерживают псевдокласс :checked не применяли эти свойства. Все браузеры, поддерживающие псевдокласс :checked, поддерживают и псевдокласс :not(), так что фильтр должен отработать правильно. */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float: right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}

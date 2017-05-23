@@ -2,6 +2,7 @@
   "vars": {},
   "css": [
     "grid.less",
+    "tables.less",
     "forms.less",
     "buttons.less",
     "responsive-utilities.less",
@@ -9,8 +10,11 @@
     "button-groups.less",
     "input-groups.less",
     "pagination.less",
-    "list-group.less"
+    "list-group.less",
+    "dropdowns.less",
+    "popovers.less",
+    "modals.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=613f56f7a973edb8887d83332c00006a"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=b7d9802c4e26c7a7539e7c6242d200c5"
 }
