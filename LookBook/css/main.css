@@ -310,3 +310,66 @@ header .other-lang li {
 .four-blocks .fourth-block p {
 	margin-top: 86px;
 }
+
+
+
+.popular-item .item-name {
+	color: #acacac;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: 'MullerRegular';
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.popular-item .item-old-price {
+	font-size: 16px;
+	line-height: 30px;
+	color: #dcbda8;
+	text-decoration: line-through;
+	font-family: 'MullerRegular';
+	font-weight: 300;
+}
+.popular-item .actual-price {
+	color: #cd696c;
+	font-size: 22px;
+	line-height: 24px;
+	font-family: 'MullerRegular';
+	font-weight: 300;
+}
+.popular-item .buy {
+	background-color: #dcbda8;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'MullerRegular';
+	font-weight: 300;
+	text-transform: uppercase;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.popular-item {
+	position: relative;
+}
+.popular-item img {
+	padding-top: 10px;
+}
+.popular-hover {
+	position: absolute;
+	left: 0;
+	opacity: 0;
+}
+.popular-item:hover {
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+.popular-item:hover .popular-hover {
+	z-index: 2;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	opacity: 1;
+}

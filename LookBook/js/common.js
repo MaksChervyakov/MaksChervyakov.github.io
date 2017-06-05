@@ -9,5 +9,10 @@ $(document).ready(function(){
   	auto: true,
   	controls: false
   });
+
+  $('.popular-hover').slideUp();
+  $('.popular-item').hover(function(){
+  	$(this).find('.popular-hover').slideToggle();
+  });
 });
 
