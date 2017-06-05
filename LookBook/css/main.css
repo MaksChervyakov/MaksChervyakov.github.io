@@ -351,6 +351,7 @@ header .other-lang li {
 }
 .popular-item {
 	position: relative;
+	transition: 0.25s;
 }
 .popular-item img {
 	padding-top: 10px;
@@ -359,6 +360,7 @@ header .other-lang li {
 	position: absolute;
 	left: 0;
 	opacity: 0;
+	transition: 0.25s;
 }
 .popular-item:hover {
 	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);

@@ -10,9 +10,9 @@ $(document).ready(function(){
   	controls: false
   });
 
-  $('.popular-hover').slideUp();
+  $('.popular-hover').hideIn();
   $('.popular-item').hover(function(){
-  	$(this).find('.popular-hover').slideToggle();
+  	$(this).find('.popular-hover').show("slow");
   });
 });
 
