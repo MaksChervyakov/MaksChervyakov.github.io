@@ -1547,6 +1547,8 @@ box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
 .a-document {
 	position: relative;
 	padding-left: 15px;
+	display: block;
+	margin-bottom: 5px;
 }
 .a-document:before {
 	font-family:'FontAwesome';
@@ -1554,4 +1556,51 @@ box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
 	left: 0;
 	content: '\f0f6';
 	
+}
+.title-of-descr {
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.information-of-order {
+	margin-top: 40px;
+	border: 1px solid #78597d;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
+.information-of-order .col-md-3,
+.information-of-order .col-md-5 {
+	border-right: 1px solid #78597d;
+	min-height: 150px;
+}
+.information-of-order .col-md-6 {
+	border-top: 1px solid #78597d;	
+}
+
+.days-of-order {
+	font-weight: bolder;
+	font-size: 22px;
+}
+.information-of-cost {
+	border: 1px solid #78597d;
+	border-radius: 4px;
+}
+.information-of-cost .cost {
+	font-size: 32px;
+	font-weight: bolder;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.information-of-cost .cost i {
+	font-size: 20px;
+}
+.information-of-cost button {
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	min-height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #78597d;
 }
