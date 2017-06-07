@@ -7,6 +7,7 @@ $('header .other-lang').click(function() {
 $(document).ready(function(){
   $('.bxslider').bxSlider({
   	auto: true,
+  	pause: 2500,
   	controls: false
   });
 

@@ -1430,7 +1430,6 @@ body {
 .personal-table {
 	width: 100%;
 	text-align: left;
-	
 }
 .table {
 	border-radius: 10px
@@ -1564,9 +1563,12 @@ box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
 }
 .information-of-order {
 	margin-top: 40px;
+	
+	margin-bottom: 30px;
+}
+.information-of-order .row {
 	border: 1px solid #78597d;
 	border-radius: 4px;
-	margin-bottom: 30px;
 }
 .information-of-order .col-md-3,
 .information-of-order .col-md-5 {
@@ -1603,4 +1605,89 @@ box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
 	padding-left: 15px;
 	padding-right: 15px;
 	background-color: #78597d;
+}
+
+
+.table-of-buy {
+	border-radius: 4px;
+}
+.table-of-buy img {
+	max-width: 100px;
+}
+.table-of-buy tr {
+	margin-top: 10px;
+}
+.table-of-buy tr:first-child {
+	-webkit-box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
+-moz-box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
+box-shadow: 0px 3px 2px -2px rgba(156,156,156,1);
+	font-size: 18px;
+}
+.table-of-buy .more-info p {
+	margin: 0;
+}
+.table-of-buy .more-info p span {
+	color: #3ACB49;
+}
+.table-of-buy .last-info p {
+	display: inline-block;
+	background-color: #8D6C93;
+	color: #fff;
+	border-radius: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.table-of-buy .quantity {
+	min-width: 100px;
+	
+}
+.table-of-buy .line {
+	height: 2px;
+	width: 100%;
+	border-top: 2px solid #78597d;
+}
+
+.comment-of-manager {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.comment-of-manager .title-of-descr {
+	font-size: 18px;
+}
+.comment-of-manager .message-of-manager {
+	background-color: #ccc;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 3px;
+	color: #000;
+	font-size: 16px;
+}
+.king-of-worker {
+	margin-bottom: 0;  
+}
+.comment-of-manager .date {
+	margin-top: 0;
+	font-size: 14px;
+}
+.archive {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.archive button {
+	padding: 0;
+	line-height: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #ebcc00;
+	font-size: 20px;
+	border-radius: 4px;
+	color: #876413;
+	text-transform: uppercase;
 }
