@@ -64,7 +64,14 @@
 
         <div class="row padding-zero margin-zero korzina">
           <div class="col-md-12 col-sm-12 col-xs-12 delivery-page">
-            <h1 class="title">Доставка</h1>
+            <div class="col-md-12 col-sm-12 col-xs-12 steps" style="margin-bottom: 40px;">
+              <ul class="margin-zero padding-zero" id="korzina-steps">
+                <li class="li-1"><a href="#"><i class="fa fa-list-alt" aria-hidden="true"></i> Товары</a></li>
+                <li class="li-2"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Корзина</a></li>
+                <li class="li-3"><a href="#"><i class="fa fa-car" aria-hidden="true"></i> Доставка</a></li>
+                <li class="li-4"><a href="#"><i class="fa fa-rub" aria-hidden="true"></i> Оплата</a></li>
+              </ul>
+            </div>
 
             <div class="col-xs-12 delivery-border">
               <div class="col-xs-12 delivery-item">
@@ -87,5 +94,12 @@
           </div>
         </div>
       </div>
+
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script>
+        $('.delivery-item').click(function(){
+          $(this).addClass("active-delivery-item");
+        });
+      </script>
     </body>
   </html>
