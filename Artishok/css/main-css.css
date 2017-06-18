@@ -213,7 +213,25 @@ body {
 
 	margin-top: 35px;
 }
-
+.main-item {
+	padding-top: 20px;
+	margin-bottom: 50px;
+	transition: 0.45s;
+}
+.main-item:hover {
+	background-color: #fff;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.main-item img {
+	border: 1px solid;
+	border-color: transparent;
+	transition: 1.5s;
+}
+.main-item:hover img {
+	border-color: #000;
+}
 .all-categories
 {
 	font-family: 'GothaProBold';
@@ -1256,11 +1274,8 @@ body {
 }
 .div-for-article-image {
 	width: 100%;
-	height: 300px;
-	background-image: url(../img/article.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	height: 450px;
+	overflow: hidden;
 	border-radius: 4px;
 }
 
