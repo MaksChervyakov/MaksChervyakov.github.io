@@ -115,27 +115,43 @@
         </div>
 
         <div class="col-md-12">
-          <div class="row">
-            <ul>
-              <li data-filter="all">All</li>
-              <li data-filter="category-a">Print template</li>
-              <li data-filter="category-b">Web template</li>
-              <li data-filter="category-c">User interface</li>
-              <li data-filter="category-g">Mock-up</li>
+          <div class="row text-center">
+            <ul class="menu-of-products">
+              <li data-filter="all" class="products-active">All</li>
+              <li data-filter=".category-a">Print template</li>
+              <li data-filter=".category-b">Web template</li>
+              <li data-filter=".category-c">User interface</li>
+              <li data-filter=".category-g">Mock-up</li>
             </ul>
           </div>
         </div>
 
         <div class="col-md-12">
           <div class="row" id="mixContainer">
-            <div class="col-md-3 mix category-a">1</div>
-            <div class="col-md-3 mix category-a">2</div>
-            <div class="col-md-3 mix category-a">3</div>
-            <div class="col-md-3 mix category-b">4</div>
-            <div class="col-md-3 mix category-b">5</div>
-            <div class="col-md-3 mix category-c">6</div>
-            <div class="col-md-3 mix category-c">7</div>
-            <div class="col-md-3 mix category-g">8</div>
+            <div class="col-md-3 mix category-a" data-order="1">
+              <img src="img/product-item.jpg" alt="Картинка" class="img-responsive">
+            </div>
+            <div class="col-md-3 mix category-a" data-order="1">
+              <img src="img/product-item.jpg" alt="Картинка" class="img-responsive">
+            </div>
+            <div class="col-md-3 mix category-a" data-order="1">
+              <img src="img/product-item.jpg" alt="Картинка" class="img-responsive">
+            </div>
+            <div class="col-md-3 mix category-b" data-order="2">
+              <img src="img/product-item.jpg" alt="Картинка" class="img-responsive">
+            </div>
+            <div class="col-md-3 mix category-b" data-order="2">
+              <img src="img/product-item.jpg" alt="Картинка" class="img-responsive">
+            </div>
+            <div class="col-md-3 mix category-c" data-order="3">
+              <img src="img/product-item.jpg" alt="Картинка" class="img-responsive">
+            </div>
+            <div class="col-md-3 mix category-c" data-order="3">
+              <img src="img/product-item.jpg" alt="Картинка" class="img-responsive">
+            </div>
+            <div class="col-md-3 mix category-g" data-order="4">
+              <img src="img/product-item.jpg" alt="Картинка" class="img-responsive">
+            </div>
           </div>
         </div>
       </div>
@@ -157,6 +173,10 @@
     <script src="js/mixitup.min.js"></script>
     <script>
       $('#mixContainer').mixItUp({});
+      $('.menu-of-products li').click(function() {
+        $('.menu-of-products li').removeClass('products-active');
+        $(this).addClass('products-active');
+      });// end of click
     </script>
     
   </body>
