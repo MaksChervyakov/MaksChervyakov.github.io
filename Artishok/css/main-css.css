@@ -940,7 +940,16 @@ body {
 	font-family: 'GothaProRegular';
 	font-size: 14px;
 }
-
+.steps .title {
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+	float: right;
+	margin-right: 200px;
+}
+.steps {
+	margin-bottom: 50px;
+}
 #korzina-steps li {
 	float: left;
 	padding: 0 30px 0 40px;

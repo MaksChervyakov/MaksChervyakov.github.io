@@ -1,0 +1,73 @@
+@font-face {
+	
+}
+
+
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.logo {
+	color: #fff;
+	line-height: 90px;
+	font-size: 32px;
+}
+.logo p {
+	margin-left: 30px;
+}
+.first-screen {
+	background-color: #f6f2f2;
+}
+header {
+	background-color: #313030;
+}
+header ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	transition: 0.25s;
+}
+header ul li:hover {
+	background-color: #ff3f40;
+}
+header ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	line-height: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+}
+.main-section h1 {
+	color: #000000;
+	font-size: 60px;
+	line-height: 72px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+.main-section p {
+	font-size: 16px;
+	line-height: 28px;
+	color: #000;
+	margin-bottom: 60px;
+}
+.main-section button {
+	background-color: #ff2d2d;
+	border-radius: 6px;
+	width: 228px;
+	height: 60px;
+	border: none;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+}
+.main-section img {
+	margin-top: 100px;
+	max-height: 370px;
+	box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.29);
+	margin-bottom: 125px;
+}
