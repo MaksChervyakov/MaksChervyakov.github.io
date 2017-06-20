@@ -7,14 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Landing</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!--  -->
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+   
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,7 +40,7 @@
             <div class="row">
               <h1>Our strong<br>organaisation</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
-              <button>Contact us</button>
+              <button class="hvr-grow-shadow">Contact us</button>
             </div>
           </div>
           <div class="col-md-6">
@@ -63,7 +56,7 @@
           <div class="row">
             <p class="section-title">Do you know we can provide for you?</p>
             <p class="title-descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
-            <button>Learn More</button>
+            <button class="hvr-grow-shadow">Learn More</button>
           </div>
         </div>
         <div class="col-md-6">
@@ -112,9 +105,59 @@
       </div>
     </section>
 
+    <div class="section container products">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="row">
+            <p class="section-title">Feature products</p>
+            <p class="products-under-title">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="row">
+            <ul>
+              <li data-filter="all">All</li>
+              <li data-filter="category-a">Print template</li>
+              <li data-filter="category-b">Web template</li>
+              <li data-filter="category-c">User interface</li>
+              <li data-filter="category-g">Mock-up</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="row" id="mixContainer">
+            <div class="col-md-3 mix category-a">1</div>
+            <div class="col-md-3 mix category-a">2</div>
+            <div class="col-md-3 mix category-a">3</div>
+            <div class="col-md-3 mix category-b">4</div>
+            <div class="col-md-3 mix category-b">5</div>
+            <div class="col-md-3 mix category-c">6</div>
+            <div class="col-md-3 mix category-c">7</div>
+            <div class="col-md-3 mix category-g">8</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--  -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/mixitup.min.js"></script>
+    <script>
+      $('#mixContainer').mixItUp({});
+    </script>
     
   </body>
 </html>
