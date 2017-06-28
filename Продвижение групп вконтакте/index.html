@@ -13,20 +13,20 @@
     <header class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-md-offset-1">
+          <div class="col-sm-6 col-sm-offset-3 col-md-6 col-lg-5 col-lg-offset-1 ">
             <div class="row">
               <h1>Продвижение групп вконтакте</h1>
               <p>Целевая аудитория по городу, полу, возрасту по 5 рублей за вступившего человека</p>
               <p>Возможно собрать людей с групп конкурентов</p>
             </div>
           </div>
-          <div class="col-md-4 col-md-offset-1">
+          <div class="col-sm-6 col-sm-offset-3 col-md-5 col-lg-4 col-lg-offset-1">
             <div class="row">
               <form action="" class="text-center">
                 <input type="text" placeholder="Ваше имя">
                 <input type="email" placeholder="Ваш Email">
                 <input type="text" placeholder="Ваша группа">
-                <input type="text" placeholder="Номер телефона">
+                <input type="text" placeholder="Номер телефона" class="phone-js">
                 <button class="btn">Заказать звонок</button>  
               </form>
             </div>
@@ -42,12 +42,12 @@
             <h2 class="title-black">Процесс выполнения заказа</h2>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-12">
           <div class="row">
             <img src="img/process.png" alt="Картинка" class="img-responsive">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-12">
           <div class="row">
             <ul>
               <li><span>1</span> Вы оставляете заявку</li>
@@ -70,7 +70,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <div class="row">
               <div class="col-md-12">
                 <img src="img/photo.jpg" alt="Преимущество">
@@ -80,7 +80,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <div class="row">
               <div class="col-md-12">
                 <img src="img/photo.jpg" alt="Преимущество">
@@ -90,7 +90,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <div class="row">
               <div class="col-md-12">
                 <img src="img/photo.jpg" alt="Преимущество">
@@ -100,7 +100,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <div class="row">
               <div class="col-md-12">
                 <img src="img/photo.jpg" alt="Преимущество">
@@ -120,7 +120,7 @@
             <h2 class="title-black">Наши различия</h2>
           </div>
         </div>
-        <div class="col-md-6 differences-other">
+        <div class="col-md-6 col-sm-6 differences-other">
           <div class="row">
             <p>Другие</p>
             <ul>
@@ -131,7 +131,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6 differences-we">
+        <div class="col-md-6 col-sm-6 differences-we">
           <div class="row">
             <p>Мы</p>
             <ul>
@@ -148,19 +148,19 @@
     <section class="container-fluid numbers">
       <div class="container">
         <div class="row" id="counter">
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <p class="numeric" data-num="300">0</p>
             <p>Более 300 выполненных проектов</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <p class="numeric" data-num="70">0</p>
             <p>У нас есть более 70 постоянных клиентов</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <p class="numeric" data-num="5">0</p>
             <p>Мы предоставляем свои услуги уже более 5 лет</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <p class="numeric" data-num="100">0</p>
             <p>100 человек пришли к нам по рекоменации</p>
           </div>
@@ -246,6 +246,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/jquery.bxslider.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -260,8 +261,10 @@
     <script src="js/waypoints.js"></script>
     <script src="js/numcount.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/maskedinput.min.js"></script>
     <script>
       $(document).ready(function(){
+        $(".phone-js").mask("+9 (999) 999-99-99");
         $('.bxslider').bxSlider();
       });
     </script>

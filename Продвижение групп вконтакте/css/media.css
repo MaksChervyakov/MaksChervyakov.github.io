@@ -1,0 +1,37 @@
+@media (max-width: 1199px) {
+	.confidence .col-md-4 img {
+		float: none;
+		display: block;
+		margin: 0px auto;
+	}
+	.confidence .confidence-title {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.confidence p {
+		text-align: center;
+	}
+	.differences-other ul li, 
+	.differences-we ul li {
+		font-size: 18px;
+	}
+}
+@media (max-width: 1024px) {
+	.process ul li {
+		font-size: 16px;
+	}
+}
+@media (min-width: 768px) {
+	.process img {
+		display: block;
+		margin: 0px auto;
+	}
+	.differences-other ul li, 
+	.differences-we ul li {
+		font-size: 16px;
+	}
+	.process ul li span {
+		float: left;
+		margin-left: 25%;
+	}
+}
