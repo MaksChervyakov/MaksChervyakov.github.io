@@ -406,12 +406,31 @@ footer ul li:last-child {
 .process .text-left span {
 	float: left;
 	margin-right: 20px;
-	margin-left: 10px;
+	margin-left: 16px;
+	position: relative;
 }
 .process .text-right span {
 	float: right;
 	margin-left: 20px;
-	margin-right: 10px;
+	margin-right: 16px;
+	position: relative;
+}
+.process .text-right span:after,
+.process .text-left span:before {
+	content: '';
+	display: block;
+	background-image: url(../img/line-of-process-item.png);
+	background-size: cover;
+	width: 16px;
+	height: 1px;
+	position: absolute;
+	top: 52%;
+}
+.process .text-right span:after {
+	right: -16px;
+}
+.process .text-left span:before {
+	left: -16px;
 }
 .process .text-rigth {
 	position: relative;
