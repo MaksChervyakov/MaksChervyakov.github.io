@@ -1,0 +1,49 @@
+.btn {
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	text-transform: uppercase;
+	padding: 20px 35px;
+	color: $white_color;
+	background-color: $light_brown_btn;
+	font-size: 14px;
+	font-family: 'Raleway';
+	font-weight: 800;
+	transition: 0.2s;
+	-webkit-transform: perspective(1px) translateZ(0);
+  	transform: perspective(1px) translateZ(0);
+  	box-shadow: 0 -3px $dark_brown inset;
+  	position: relative;
+  	-webkit-transition-property: color;
+  	transition-property: color;
+  	-webkit-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+	&:before {
+		content: "";
+  		position: absolute;
+  		z-index: -1;
+	  	top: 0;
+	  	left: 0;
+	  	right: 0;
+	  	bottom: 0;
+	  	background: $dark_brown;
+	  	-webkit-transform: scaleY(0);
+	  	transform: scaleY(0);
+	  	-webkit-transform-origin: 50% 100%;
+	  	transform-origin: 50% 100%;
+	  	-webkit-transition-property: transform;
+	  	transition-property: transform;
+	  	-webkit-transition-duration: 0.3s;
+	  	transition-duration: 0.3s;
+	  	-webkit-transition-timing-function: ease-out;
+	  	transition-timing-function: ease-out;
+	  	border-radius: 4px;
+	}
+	&:hover {
+		box-shadow: none;
+		color: $black_white_color;
+		&:before {
+			transform: scaleY(1);
+		}
+	}
+}

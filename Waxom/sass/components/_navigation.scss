@@ -1,0 +1,24 @@
+header nav {
+	text-align: right;
+	ul li {
+		display: inline-block;
+		margin-right: 30px;
+		line-height: 60px;
+		&:last-child {
+			margin-right: 0px;
+		}
+		a {
+			transition: 0.24s;
+			color: $white-color;
+			text-decoration: none;
+			font-size: 14px;
+			font-family: 'Montserrat';
+			font-weight: 300;
+			&:hover {
+				color: $light_brown;
+			}
+		}
+
+	}
+}
+

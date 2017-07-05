@@ -1,0 +1,20 @@
+.title-screen {
+	background: url(../img/title-screen.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	padding-top: 50px;
+	margin-bottom: 270px;
+}
+.logo img {
+	float: left;
+}
+.logo p {
+	display: inline-block;
+	font-family: 'Raleway';
+	color: #fff;
+	font-size: 34px;
+	line-height: 60px;
+}
