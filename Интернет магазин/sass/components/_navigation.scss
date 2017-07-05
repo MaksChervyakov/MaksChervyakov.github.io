@@ -1,0 +1,39 @@
+nav ul {
+	text-align: center;
+}
+nav ul li a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 15px 5px;
+}
+
+.navigation {
+	border-bottom:5px solid $red_color;
+	box-shadow: 0px 10px 50px -15px rgba(0,0,0,0.75);
+}
+nav ul li {
+	transition: 0.2s;
+	display: inline-block;
+	font-size: $middle_size;
+	color: $black_color;
+	margin-right: 5%;
+}
+nav ul .active-nav {
+	background-color: $red_color;
+	color: $white_color;
+}
+.breadcrumbs {
+	color: $brown_color;
+	font-size: $smaller_size;
+	margin-top: 20px;
+}
+.breadcrumbs p {
+	display: inline-block;
+}
+.breadcrumbs p:last-child {
+	font-size: $big_size;
+	float: right;
+}
