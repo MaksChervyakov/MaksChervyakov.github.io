@@ -54,12 +54,96 @@
 		</section>
 	</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<div class="container services">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="services-block-for-img">
+					<img src="img/pencil.png" alt="Pencil">	
+					<img src="img/pencil-hover.png" alt="Hover-Pencil" class="hover-img">
+				</div>
+				
+				<p class="services-title">Web & App Design</p>
+				<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+			</div>
+			<div class="col-md-3">
+				<div class="services-block-for-img">
+					<img src="img/development.png" alt="Development">	
+					<img src="img/development-hover.png" alt="Hover-development" class="hover-img">
+				</div>
+				
+				<p class="services-title">Development</p>
+				<p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+			</div>
+			<div class="col-md-3">
+				<div class="services-block-for-img">
+					<img src="img/customization.png" alt="Customization">	
+					<img src="img/customization-hover.png" alt="Hover-Customization" class="hover-img">
+				</div>
+				
+				<p class="services-title">Customization</p>
+				<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+			</div>
+			<div class="col-md-3">
+				<div class="services-block-for-img">
+					<img src="img/marketing.png" alt="Marketing">	
+					<img src="img/marketing-hover.png" alt="Hover-Marketing" class="hover-img">
+				</div>
+				
+				<p class="services-title">Marketing</p>
+				<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+			</div>
+		</div>
+	</div>
+
+	<section class="container-fluid realization-of-idea">
+		<div class="containe">
+			<div class="row">
+				<h2>Waxom is Realization of your Ideas.</h2>
+				<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="slider-3d">
+					  <carousel-3d>
+						  <slide :index="0">
+						    <img src="img/idea-slider-item1.png" alt="" class="img-responsive">
+						  </slide>
+						  <slide :index="1">
+						    <img src="img/idea-slider-item2.png" alt="" class="img-responsive">
+						  </slide>
+						  <slide :index="2">
+						    <img src="img/idea-slider-item3.png" alt="" class="img-responsive">
+						  </slide>
+						</carousel-3d>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
+	<script src="js/vue.min.js"></script>
+	<script src="js/vue-carousel-3d.min.js"></script>
 	<script>
 		$(document).ready(function(){
 		 $('.main-slider').slick();
+
+		 new Vue({
+		  el: '#slider-3d',
+		  data: {
+		    slides: 7
+		  },
+		  components: {
+		    'carousel-3d': Carousel3d.Carousel3d,
+		    'slide': Carousel3d.Slide
+		  }
+		})
+
+
 		});
+
 	</script>
 </body>
 </html>

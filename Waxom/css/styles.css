@@ -3636,6 +3636,77 @@ table {
 .main-slider .col-md-12 {
   outline: none; }
 
+.services {
+  margin-top: 80px; }
+  .services .col-md-3 {
+    text-align: center; }
+    .services .col-md-3 .services-block-for-img {
+      overflow: hidden;
+      height: 50px;
+      width: 50px;
+      margin: 0px auto; }
+      .services .col-md-3 .services-block-for-img .hover-img {
+        transition: 5s;
+        opacity: 0;
+        display: none; }
+    .services .col-md-3 img {
+      display: block;
+      transition: 1s; }
+    .services .col-md-3 .services-title {
+      transition: 0.25s;
+      font-family: 'Raleway';
+      font-weight: 600;
+      font-size: 22px;
+      color: #555555;
+      margin-top: 30px;
+      margin-bottom: 25px; }
+      .services .col-md-3 .services-title + p {
+        color: #8c8c8c;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 30px;
+        font-family: 'Montserrat';
+        font-weight: 300; }
+    .services .col-md-3:after {
+      transition: 0.25s;
+      display: block;
+      content: '';
+      width: 70px;
+      background-color: #8c8c8c;
+      height: 3px;
+      margin: 0px auto; }
+    .services .col-md-3:hover .services-block-for-img img {
+      display: none; }
+    .services .col-md-3:hover .services-block-for-img .hover-img {
+      display: block;
+      opacity: 1; }
+    .services .col-md-3:hover .services-title {
+      color: #c7b299; }
+    .services .col-md-3:hover:after {
+      background-color: #c7b299; }
+
+.realization-of-idea {
+  margin-top: 80px;
+  background-color: #fbfaf8;
+  text-align: center; }
+  .realization-of-idea h2 {
+    color: #555555;
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    margin-top: 80px;
+    margin-bottom: 30px; }
+  .realization-of-idea p {
+    font-family: 'Montserrat';
+    color: #8c8c8c;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 770px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 0px auto;
+    margin-bottom: 40px; }
+
 .title-screen {
   background: url(../img/title-screen.jpg);
   background-size: cover;
@@ -3696,8 +3767,7 @@ header {
     transition-timing-function: ease-out;
     border-radius: 4px; }
   .btn:hover {
-    box-shadow: none;
-    color: #dac7ba; }
+    box-shadow: none; }
     .btn:hover:before {
       transform: scaleY(1); }
 
