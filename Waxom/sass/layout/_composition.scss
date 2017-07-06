@@ -91,19 +91,14 @@
 	}
 }
 
-.realization-of-idea {
+.title {
+	color: $grey_color;
+	font-size: 30px;
+	font-family: 'Raleway';
+	font-weight: 500;
 	margin-top: 80px;
-	background-color: $silver_grey_color;
-	text-align: center;
-	h2 {
-		color: $grey_color;
-		font-size: 30px;
-		font-family: 'Raleway';
-		font-weight: 500;
-		margin-top: 80px;
-		margin-bottom: 30px;
-	}
-	p {
+	margin-bottom: 30px;
+	&+p {
 		font-family: 'Montserrat';
 		color: $light_grey_color;
 		font-size: 16px;
@@ -113,5 +108,197 @@
 		display: inline-block;
 		margin: 0px auto;
 		margin-bottom: 40px;
+	}
+}
+.realization-of-idea {
+	margin-top: 80px;
+	background-color: $silver_grey_color;
+	text-align: center;
+}
+.carousel-3d-container {
+	margin-bottom: 0
+	!important;
+}
+.carousel-3d-slide.current {
+	overflow: hidden
+	!important;
+}
+
+.line-of-buy {
+	background: url(../img/line-of-buy-bg.png);
+		h2 {
+		font-family: 'Raleway'; 
+		font-size: 28px;
+		color: $white_color;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		&+p {
+			font-family: 'Montserrat';
+			font-size: 18px;
+			font-weight: 300;
+			color: $dark_brown;
+			margin-bottom: 50px;
+		}
+		span {
+			color: $light_brown;
+		}
+	}
+	button {
+		margin-top: 60px;
+		float: right;
+		margin-right: 20px;
+	}
+}
+
+.last-projects {
+	.title-block {
+		text-align: center;
+	}
+	ul {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		text-align: center;
+		li {
+			cursor: pointer;
+			display: inline-block;
+			font-family: 'Montserrat';
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 21px;
+			color: $light_grey_color;
+			padding: 10px 20px;
+			border-radius: 4px;
+			border: 1px solid #ebebeb;
+			margin-right: 10px;
+			&:last-child {
+				margin-right: 0;
+			}
+			&.active {
+				background-color: $light_brown_btn;
+				color: $white_color;
+				border-color: $light_brown_btn;
+			}
+		}
+	}
+	
+	.col-md-4 {
+		.a-light-box {
+			
+    		z-index: 9999;
+    		-ms-touch-action: none;
+    		touch-action: none;
+		}
+		.mix-for-img {
+			position: relative;
+			.latent-block {
+				transition: 0.5s;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				text-align: center;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(47,47,47,0.7);
+				opacity: 0;
+				img {
+					position: absolute;
+					top: 50%;
+					right: 49%;
+					cursor: pointer;
+				}
+			}
+		}
+		.mix-for-text {
+			transition: 0.4s;
+			position: relative;
+			background-color: $silver_grey_color;
+			margin-bottom: 30px;
+			&:after {
+				transition: 0.4s;
+				top: -40px;
+				left: 5%;
+				position: absolute;
+				content: '';
+				border: 20px solid transparent;	
+				border-bottom: 20px solid $silver_grey_color;
+			}
+			
+			p {
+				transition: 0.25s;
+				padding-left: 25px;
+				padding-top: 35px;
+				font-family: 'Raleway';
+				font-weight: 400;
+				color: $light_brown;
+				font-size: 20px;
+				margin-bottom: 15px;
+				&:last-child {
+					font-size: 14px;
+					font-family: 'Montserrat';
+					font-weight: 300;
+					padding-top: 0;
+					padding-bottom: 30px;
+					color: $extra_light_color;
+				}
+			}
+		}
+		&:hover {
+			.mix-for-text {
+				background-color: $extra_dark_brown_color;
+				&:after {
+					border-bottom-color: $extra_dark_brown_color;
+				}
+			}
+			p {
+				color: #fff;
+				&:last-child {
+					color: $light_brown;
+				}
+			}
+			.mix-for-img {
+				.latent-block {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	button {
+		display: block;
+		margin: 0px auto;
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}
+}
+
+.video-presentation {
+	text-align: center;
+	background-image: url(../img/presentation-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.play-video {
+		cursor: pointer;
+		margin-top: 200px;
+		margin-bottom: 45px;
+	}
+	h2 {
+		font-family: 'Raleway';
+		font-weight: 500;
+		color: $white_color;
+		font-size: 30px;
+		margin-bottom: 30px;
+		text-transform: capitalize;
+	}
+	p {
+		margin: 0px auto;
+		color: $white_color;
+		font-family: 'Montserrat';
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 28px;
+		max-width: 560px;
+		margin-bottom: 250px;
 	}
 }
