@@ -1,0 +1,46 @@
+.close-animatedModal {
+	padding-top: 40px;
+	margin-bottom: 50px;
+	i {
+		color: $white_color;
+		float: right;
+		font-size: 50px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+}
+.modal-content {
+	img {
+		display: block;
+		max-width: 80%;
+		margin: 0px auto;
+	}
+	.modal-descr {
+		margin-top: 50px;
+		p {
+			font-family: 'Raleway';
+			margin: 0px auto;
+			max-width: 600px;
+			color: $white_color;
+		}
+		.modal-title {
+			transition: 0.25s;
+			padding-top: 35px;
+			font-weight: 600;
+			color: $light_brown;
+			font-size: 20px;
+			margin-bottom: 15px;
+		}
+		.modal-category {
+			margin-top: 20px;
+			font-weight: 400;
+			font-size: 18px;
+			margin-bottom: 15px
+		}
+		.modal-text {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+
+}

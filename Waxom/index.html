@@ -158,7 +158,9 @@
 					<div class="mix-for-img">
 						<img src="img/project-1.jpg" alt="" class="img-responsive">
 						<div class="latent-block">
-							<img src="img/lupa.png" alt="">
+							<a href="#animatedModal" id="demo01">
+								<img src="img/lupa.png" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="mix-for-text">
@@ -453,6 +455,32 @@
 		</div>
 	</footer>
 
+
+	<!--DEMO01-->
+    <div id="animatedModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-animatedModal"> 
+            <div class="container">
+            	<i class="fa fa-times-circle-o" aria-hidden="true"></i>
+            </div>
+        </div>
+            
+        <div class="modal-content">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<img src="img/project-1.jpg" alt="project">
+        			</div>
+        			<div class="col-md-12 modal-descr">
+        				<p class="modal-title">Claritas Etiam Processus</p>
+        				<p class="modal-category">Photography, Nature</p>
+        				<p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium consectetur nihil excepturi, dicta. Vitae ullam mollitia recusandae illo optio earum, aliquid voluptatibus, nesciunt praesentium iure id corporis numquam quidem delectus iste! Vitae repellendus, ipsa sunt dolorem sed. Magnam eligendi corporis dolor doloribus, aliquid ipsam minima id, sint placeat tempora ipsa, pariatur omnis. Quos debitis reprehenderit laboriosam. Iure ipsum explicabo optio odio mollitia facilis quas, quod expedita. Alias illum magni rem fugit quis distinctio sint nulla consectetur doloremque, beatae nemo ullam, placeat eum quae voluptate repudiandae accusamus soluta labore aspernatur iure iusto accusantium. Quisquam quasi libero in eaque quas quos, velit pariatur quae maxime voluptatibus delectus iusto. Voluptatum possimus natus animi a error accusantium? Doloribus suscipit maxime repellendus, tempora sint facere sunt aliquam ut iste obcaecati aut, sapiente explicabo iure tempore.</p>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+    </div>
+
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
@@ -461,8 +489,14 @@
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/numcount.js"></script>
 	<script src="js/parallax.min.js"></script>
+	<script src="js/animatedModal.min.js"></script>
 	<script>
 		$(document).ready(function(){
+			 $("#demo01").animatedModal({
+			 	animatedIn: 'lightSpeedIn',
+			 	animatedOut: 'zoomOut',
+			 	color: '#362f2d'
+			 });
 			$('#mixContainer').mixItUp({});
 			$('.main-slider').slick();
 			$('.last-projects ul li').click(function() {
