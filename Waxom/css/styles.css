@@ -3876,6 +3876,9 @@ html.remodal-is-locked {
   src: local("Montserrat Black"), local("Montserrat-Black"), url("../fonts/montserratblack.woff2") format("woff2"), url("../fonts/montserratblack.woff") format("woff"), url("../fonts/montserratblack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal; }
+* {
+  outline: none; }
+
 .title-screen section {
   text-align: center;
   color: #fff;
