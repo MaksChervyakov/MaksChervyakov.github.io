@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <head>
 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Wawom</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="shortcut icon" href="img/logo-img.png" type="image/png">
@@ -104,16 +104,16 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div id="slider-3d">
-					  <carousel-3d>
-						  <slide :index="0">
-						    <img src="img/idea-slider-item1.png" alt="" class="img-responsive">
-						  </slide>
-						  <slide :index="1">
-						    <img src="img/idea-slider-item2.png" alt="" class="img-responsive">
-						  </slide>
-						  <slide :index="2">
-						    <img src="img/idea-slider-item3.png" alt="" class="img-responsive">
-						  </slide>
+						<carousel-3d>
+							<slide :index="0">
+								<img src="img/idea-slider-item1.png" alt="" class="img-responsive">
+							</slide>
+							<slide :index="1">
+								<img src="img/idea-slider-item2.png" alt="" class="img-responsive">
+							</slide>
+							<slide :index="2">
+								<img src="img/idea-slider-item3.png" alt="" class="img-responsive">
+							</slide>
 						</carousel-3d>
 					</div>
 				</div>
@@ -123,15 +123,15 @@
 
 	<section class="container-fluid line-of-buy">
 		<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<h2><span>Waxom</span> Multipurpose WordPress Theme</h2>
-						<p>Don't Forget to Rate the Template. Thanks so much!</p>
-					</div>
-					<div class="col-md-6">
-						<button class="btn">purchase now</button>
-					</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h2><span>Waxom</span> Multipurpose WordPress Theme</h2>
+					<p>Don't Forget to Rate the Template. Thanks so much!</p>
 				</div>
+				<div class="col-md-6">
+					<button class="btn">purchase now</button>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -158,7 +158,7 @@
 					<div class="mix-for-img">
 						<img src="img/project-1.jpg" alt="" class="img-responsive">
 						<div class="latent-block">
-							<a href="#animatedModal" id="demo01">
+							<a data-remodal-target="modal">
 								<img src="img/lupa.png" alt="">
 							</a>
 						</div>
@@ -173,7 +173,9 @@
 					<div class="mix-for-img">
 						<img src="img/project-2.jpg" alt="" class="img-responsive">
 						<div class="latent-block">
-							<img src="img/lupa.png" alt="">
+							<a data-remodal-target="modal2">
+								<img src="img/lupa.png" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="mix-for-text">
@@ -186,7 +188,9 @@
 					<div class="mix-for-img">
 						<img src="img/project-3.jpg" alt="" class="img-responsive">
 						<div class="latent-block">
-							<img src="img/lupa.png" alt="">
+							<a data-remodal-target="modal3">
+								<img src="img/lupa.png" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="mix-for-text">
@@ -199,7 +203,9 @@
 					<div class="mix-for-img">
 						<img src="img/project-4.jpg" alt="" class="img-responsive">
 						<div class="latent-block">
-							<img src="img/lupa.png" alt="">
+							<a data-remodal-target="modal4">
+								<img src="img/lupa.png" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="mix-for-text">
@@ -212,7 +218,9 @@
 					<div class="mix-for-img">
 						<img src="img/project-5.jpg" alt="" class="img-responsive">
 						<div class="latent-block">
-							<img src="img/lupa.png" alt="">
+							<a data-remodal-target="modal5">
+								<img src="img/lupa.png" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="mix-for-text">
@@ -225,7 +233,9 @@
 					<div class="mix-for-img">
 						<img src="img/project-6.jpg" alt="" class="img-responsive">
 						<div class="latent-block">
-							<img src="img/lupa.png" alt="">
+							<a data-remodal-target="modal6">
+								<img src="img/lupa.png" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="mix-for-text">
@@ -456,47 +466,90 @@
 	</footer>
 
 
-	<!--DEMO01-->
-    <div id="animatedModal">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-        <div class="close-animatedModal"> 
-            <div class="container">
-            	<i class="fa fa-times-circle-o" aria-hidden="true"></i>
-            </div>
-        </div>
-            
-        <div class="modal-content">
-        	<div class="container">
-        		<div class="row">
-        			<div class="col-md-12">
-        				<img src="img/project-1.jpg" alt="project">
-        			</div>
-        			<div class="col-md-12 modal-descr">
-        				<p class="modal-title">Claritas Etiam Processus</p>
-        				<p class="modal-category">Photography, Nature</p>
-        				<p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium consectetur nihil excepturi, dicta. Vitae ullam mollitia recusandae illo optio earum, aliquid voluptatibus, nesciunt praesentium iure id corporis numquam quidem delectus iste! Vitae repellendus, ipsa sunt dolorem sed. Magnam eligendi corporis dolor doloribus, aliquid ipsam minima id, sint placeat tempora ipsa, pariatur omnis. Quos debitis reprehenderit laboriosam. Iure ipsum explicabo optio odio mollitia facilis quas, quod expedita. Alias illum magni rem fugit quis distinctio sint nulla consectetur doloremque, beatae nemo ullam, placeat eum quae voluptate repudiandae accusamus soluta labore aspernatur iure iusto accusantium. Quisquam quasi libero in eaque quas quos, velit pariatur quae maxime voluptatibus delectus iusto. Voluptatum possimus natus animi a error accusantium? Doloribus suscipit maxime repellendus, tempora sint facere sunt aliquam ut iste obcaecati aut, sapiente explicabo iure tempore.</p>
-        			</div>
-        		</div>
-        	</div>
-        </div>
-    </div>
+
+	<div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<div class="col-md-12">
+			<img src="img/project-1.jpg" alt="">
+		</div>
+		<h1>Claritas Etiam Processus</h1>
+		<h2>Photography, Nature</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae porro pariatur perferendis fugiat doloremque inventore atque error possimus, cumque animi. Amet tenetur similique quos, consectetur dolores minima excepturi fugiat iusto.</p>
+		<button data-remodal-action="confirm" class="btn">Close</button>
+	</div>
+
+
+	<div class="remodal" data-remodal-id="modal2" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<div class="col-md-12">
+			<img src="img/project-2.jpg" alt="">
+		</div>
+		<h1>Quam Nutamus Farum</h1>
+		<h2>Graphic Design, Mock-up</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae porro pariatur perferendis fugiat doloremque inventore atque error possimus, cumque animi. Amet tenetur similique quos, consectetur dolores minima excepturi fugiat iusto.</p>
+		<button data-remodal-action="confirm" class="btn">Close</button>
+	</div>
+
+	<div class="remodal" data-remodal-id="modal3" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<div class="col-md-12">
+			<img src="img/project-3.jpg" alt="">
+		</div>
+		<h1>Quam Nutamus Farum</h1>
+		<h2>Graphic Design, Mock-up</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae porro pariatur perferendis fugiat doloremque inventore atque error possimus, cumque animi. Amet tenetur similique quos, consectetur dolores minima excepturi fugiat iusto.</p>
+		<button data-remodal-action="confirm" class="btn">Close</button>
+	</div>
+
+	<div class="remodal" data-remodal-id="modal4" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<div class="col-md-12">
+			<img src="img/project-4.jpg" alt="">
+		</div>
+		<h1>Quam Nutamus Farum</h1>
+		<h2>Graphic Design, Mock-up</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae porro pariatur perferendis fugiat doloremque inventore atque error possimus, cumque animi. Amet tenetur similique quos, consectetur dolores minima excepturi fugiat iusto.</p>
+		<button data-remodal-action="confirm" class="btn">Close</button>
+	</div>
+
+	<div class="remodal" data-remodal-id="modal5" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<div class="col-md-12">
+			<img src="img/project-5.jpg" alt="">
+		</div>
+		<h1>Quam Nutamus Farum</h1>
+		<h2>Graphic Design, Mock-up</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae porro pariatur perferendis fugiat doloremque inventore atque error possimus, cumque animi. Amet tenetur similique quos, consectetur dolores minima excepturi fugiat iusto.</p>
+		<button data-remodal-action="confirm" class="btn">Close</button>
+	</div>
+
+	<div class="remodal" data-remodal-id="modal6" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+		<div class="col-md-12">
+			<img src="img/project-6.jpg" alt="">
+		</div>
+		<h1>Quam Nutamus Farum</h1>
+		<h2>Graphic Design, Mock-up</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae porro pariatur perferendis fugiat doloremque inventore atque error possimus, cumque animi. Amet tenetur similique quos, consectetur dolores minima excepturi fugiat iusto.</p>
+		<button data-remodal-action="confirm" class="btn">Close</button>
+	</div>
+
+
+
 
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/remodal.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/vue.min.js"></script>
 	<script src="js/vue-carousel-3d.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/numcount.js"></script>
 	<script src="js/parallax.min.js"></script>
-	<script src="js/animatedModal.min.js"></script>
+	
 	<script>
 		$(document).ready(function(){
-			 $("#demo01").animatedModal({
-			 	animatedIn: 'lightSpeedIn',
-			 	animatedOut: 'zoomOut',
-			 	color: '#362f2d'
-			 });
+			 $('[data-remodal-id=modal]').remodal();
 			$('#mixContainer').mixItUp({});
 			$('.main-slider').slick();
 			$('.last-projects ul li').click(function() {
@@ -504,16 +557,16 @@
 				$(this).addClass('active');
 			});
 
-		 new Vue({
-		  el: '#slider-3d',
-		  data: {
-		    slides: 7
-		  },
-		  components: {
-		    'carousel-3d': Carousel3d.Carousel3d,
-		    'slide': Carousel3d.Slide
-		  }
-		})
+			new Vue({
+				el: '#slider-3d',
+				data: {
+					slides: 7
+				},
+				components: {
+					'carousel-3d': Carousel3d.Carousel3d,
+					'slide': Carousel3d.Slide
+				}
+			})
 
 
 		});
