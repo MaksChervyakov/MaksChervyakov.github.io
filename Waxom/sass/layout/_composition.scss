@@ -1,6 +1,20 @@
 * {
 	outline: none;
 }
+.preloader {
+	position: fixed;
+	background-color: #141414;
+	background-image: url("../preloader.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 999;
+	
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	heiht: 100vh;
+}
 .title-screen section {
 	text-align: center;
 	color: $white_color;
