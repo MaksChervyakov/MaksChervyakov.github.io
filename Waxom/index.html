@@ -5,12 +5,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Wawom</title>
+	<title>Waxom</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="shortcut icon" href="img/logo-img.png" type="image/png">
 </head>
 <body>
-	<div class="container-fluid title-screen">
+	<div class="container-fluid title-screen parallax-window" data-parallax="scroll" data-image-src="img/title-screen.jpg">
 		<header class="container">
 			<div class="col-md-3 logo">
 				<img src="img/logo-img.png" alt="Логотип">
@@ -251,7 +251,7 @@
 		</div>
 	</section>
 
-	<section class="container-fluid video-presentation">
+	<section class="container-fluid video-presentation parallax-window" data-parallax="scroll" data-image-src="img/presentation-bg.jpg">
 		<div class="container">
 			<div class="col-md-12">
 				<div class="play-video">
@@ -479,7 +479,7 @@
 	</section>
 
 
-	<section class="container-fluid sponsors">
+	<section class="container-fluid sponsors parallax-window"  data-parallax="scroll" data-image-src="img/sponsors-bg.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
@@ -657,6 +657,7 @@
 	
 	<script>
 		$(document).ready(function(){
+			$('.parallax-window').parallax();
 			 $('[data-remodal-id=modal]').remodal();
 			$('#mixContainer').mixItUp({});
 			$('.main-slider,.posts-slider').slick();

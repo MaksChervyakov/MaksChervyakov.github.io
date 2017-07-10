@@ -3881,11 +3881,6 @@ html.remodal-is-locked {
   src: local("Montserrat Black"), local("Montserrat-Black"), url("../fonts/montserratblack.woff2") format("woff2"), url("../fonts/montserratblack.woff") format("woff"), url("../fonts/montserratblack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal; }
-.title-screen {
-  background: url(../img/title-screen.jpg);
-  background-size: cover;
-  background-position: center; }
-
 header {
   padding-top: 50px;
   margin-bottom: 270px; }
@@ -4214,11 +4209,7 @@ header nav {
   margin-bottom: 80px; }
 
 .video-presentation {
-  text-align: center;
-  background-image: url(../img/presentation-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
+  text-align: center; }
   .video-presentation .play-video {
     margin-top: 200px;
     margin-bottom: 45px; }
@@ -4401,17 +4392,13 @@ header nav {
   right: 45%;
   margin-bottom: 40px; }
 
-.sponsors {
-  background-image: url("../img/sponsors-bg.jpg");
-  background-size: cover;
-  background-position: center; }
-  .sponsors .col-md-3 {
-    line-height: 500px;
-    text-align: center; }
-  .sponsors img {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0px auto; }
+.sponsors .col-md-3 {
+  line-height: 500px;
+  text-align: center; }
+.sponsors img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px auto; }
 
 .pre-footer {
   padding-top: 80px;
