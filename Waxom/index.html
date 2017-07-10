@@ -19,7 +19,7 @@
 				<img src="img/logo-img.png" alt="Логотип">
 				<p>Waxom</p>
 			</div>
-			<nav class="col-md-9">
+			<!--<nav class="col-md-9">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About Us</a></li>
@@ -31,6 +31,28 @@
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
+			-->
+			<div class="col-md-9">
+				<button class="toggle-menu">
+					<div class="sandwich">
+					  <div class="sw-topper"></div>
+					  <div class="sw-bottom"></div>
+					  <div class="sw-footer"></div>
+					</div>
+				</button>
+				<nav class="top-menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Shortcodes</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<section class="container">
@@ -660,6 +682,17 @@
 	
 	<script>
 		$(document).ready(function(){
+			$(".toggle-menu, .menu_item").click(function() {
+			  $(".sandwich").toggleClass("active");
+			});
+			$(".toggle-menu").click(function(){
+				if ($(".top-menu").is(":visible")) {
+					$(".top-menu").fadeOut(600);
+				} else {
+					$(".top-menu").fadeIn(600);
+				}
+				
+			});
 			$('.parallax-window').parallax();
 			 $('[data-remodal-id=modal]').remodal();
 			$('#mixContainer').mixItUp({});
@@ -688,7 +721,7 @@
 				$('.preloader').fadeOut(3000);
 		});
 		$(window).on('load', function () {
-			$('.preloader').fadeOut(3000);
+			$('.preloader').fadeOut();
 		});
 	</script>
 </body>
