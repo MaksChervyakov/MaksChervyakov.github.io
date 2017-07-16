@@ -23,12 +23,14 @@
 	}*/
 	.toggle-menu {
 		border: none;
-		background-color: transparent;
+		border-radius: 4px;
+		background-color: rgba(0,0,0,0.7);
 		width: 60px;
 		height: 60px;
 		float: right;
-		position: relative;
+		position: fixed;
 		z-index: 100;
+		right: 40px;
 	}
 
 

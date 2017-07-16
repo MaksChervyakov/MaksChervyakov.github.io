@@ -10,9 +10,7 @@
 	<link rel="shortcut icon" href="img/logo-img.png" type="image/png">
 </head>
 <body>
-	<div class="preloader">
-		
-	</div>
+	<div class="preloader"></div>
 	<div class="container-fluid title-screen parallax-window" data-parallax="scroll" data-image-src="img/title-screen.jpg">
 		<header class="container">
 			<div class="col-md-3 logo">
@@ -276,7 +274,8 @@
 		</div>
 	</section>
 
-	<section class="container-fluid video-presentation parallax-window" data-parallax="scroll" data-image-src="img/presentation-bg.jpg">
+	<section class="container-fluid video-presentation"
+	>
 		<div class="container">
 			<div class="col-md-12">
 				<div class="play-video">
@@ -688,10 +687,15 @@
 			$(".toggle-menu").click(function(){
 				if ($(".top-menu").is(":visible")) {
 					$(".top-menu").fadeOut(600);
+					$(".top-menu li a").removeClass("fadeInUp animated");
 				} else {
 					$(".top-menu").fadeIn(600);
+					$(".top-menu li a").addClass("fadeInUp animated");
 				}
-				
+			});
+			$(".top-menu li a").click(function(){
+				$(".top-menu").fadeOut(600);
+				$(".sandwich").toggleClass("active");
 			});
 			$('.parallax-window').parallax();
 			 $('[data-remodal-id=modal]').remodal();

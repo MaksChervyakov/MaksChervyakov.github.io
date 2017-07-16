@@ -1,6 +1,10 @@
 * {
 	outline: none;
 }
+.slick-prev,
+.slick-next {
+	z-index: 999;
+}
 .preloader {
 	position: fixed;
 	background-color: #141414;
@@ -293,6 +297,9 @@
 }
 
 .video-presentation {
+	background-image: url("../img/presentation-bg.jpg");
+	background-size: cover;
+	background-position: center;
 	text-align: center;
 	
 	.play-video {
